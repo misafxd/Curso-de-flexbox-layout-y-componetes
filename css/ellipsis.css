@@ -1,0 +1,14 @@
+.ellipsis {
+    overflow: hidden;
+}
+
+.ellipsis > * {
+    display: block;
+    /*sin nueva linea*/
+    white-space: nowrap;
+    /*ocultar lo que se desborda*/
+    overflow: hidden;
+    /*poner puntitos en lugar de scroll*/
+    text-overflow: ellipsis;
+
+}
