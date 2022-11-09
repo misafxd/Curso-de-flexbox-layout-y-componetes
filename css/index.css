@@ -5,8 +5,14 @@
 @import './button-icon.css';
 @import './sidebar.css';
 @import './ellipsis.css';
+@import './player.css';
+@import './page.css';
+@import './layout.css';
+@import './scrollbar.css';
+
 
 :root {
+    font-size: 14px;
     --primary: #00b050;
     --white: #ffffff;
     --gray10: #b3b3b3;
@@ -24,3 +30,14 @@
     --small: normal .75em/normal var(--basefontFamily);
 }
 
+@media screen and (min-width: 768px){
+    :root {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1367px){
+    :root {
+        font-size: 18px;
+    }
+}
